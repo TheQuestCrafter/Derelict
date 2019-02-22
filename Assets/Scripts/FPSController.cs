@@ -31,6 +31,7 @@ public class FPSController : MonoBehaviour
     void Start()
     {
         player = GetComponent<CharacterController>();
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -56,11 +57,12 @@ public class FPSController : MonoBehaviour
 
     private void Movement()
     {
-        Vector3 movement = new Vector3(moveLeftRight, rb.velocity.y, moveFrontBack);
-        transform.Rotate(0, rotationX, 0);
-        camera.transform.localRotation = Quaternion.Euler(rotationY, 0, 0);
-        movement = transform.rotation * movement;
-        player.Move(movement * Time.deltaTime);
+
+            Vector3 movement = new Vector3(moveLeftRight, rb.velocity.y, moveFrontBack);
+            transform.Rotate(0, rotationX, 0);
+            camera.transform.localRotation = Quaternion.Euler(rotationY, 0, 0);
+            movement = transform.rotation * movement;
+            player.Move(movement * Time.deltaTime);
     }
 
     private void GetInput()
