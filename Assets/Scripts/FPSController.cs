@@ -57,7 +57,6 @@ public class FPSController : MonoBehaviour
 
     private void Movement()
     {
-
             Vector3 movement = new Vector3(moveLeftRight, rb.velocity.y, moveFrontBack);
             transform.Rotate(0, rotationX, 0);
             camera.transform.localRotation = Quaternion.Euler(rotationY, 0, 0);
