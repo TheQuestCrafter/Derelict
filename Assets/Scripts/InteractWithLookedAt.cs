@@ -7,14 +7,44 @@ using UnityEngine;
 /// </summary>
 public class InteractWithLookedAt : MonoBehaviour
 {
+    private IInteractive lookedAtInteractive;
     [SerializeField]
-    private DetectLookedAtInteractive detectLookedAtInteractive;
+    private float timer = 3;
+    private float timeAtEnd;
+    private bool timerActive = false;
 
     void Update()
     {
-        if (Input.GetButtonDown("Interact") && detectLookedAtInteractive != null)
+        if (Input.GetButtonDown("Interact") && lookedAtInteractive != null)
         {
-            detectLookedAtInteractive.LookedAtInteractive.InteractWith();
+            lookedAtInteractive.InteractWith();
+            timeAtEnd = Time.time;
+            timerActive = true;
+        }
+        if(timerActive && timeAtEnd + timer <= Time.time)
+        {
+            lookedAtInteractive.ResetDisplayText();
+            timerActive = false;
         }
     }
+
+    /// <summary>
+    /// Event handler for DetectLookedAtInteractive.LookedAtInteractiveChanged
+    /// </summary>
+    /// <param name="newLookedAtInteractive"></param>
+    private void OnLookedAtInteractiveChanged(IInteractive newLookedAtInteractive)
+    {
+        lookedAtInteractive = newLookedAtInteractive;
+    }
+
+    #region Event Subscription / Unsubscription
+    private void OnEnable()
+    {
+        DetectLookedAtInteractive.LookedAtInteractiveChanged += OnLookedAtInteractiveChanged;
+    }
+    private void OnDisable()
+    {
+        DetectLookedAtInteractive.LookedAtInteractiveChanged -= OnLookedAtInteractiveChanged;
+    }
+    #endregion
 }
