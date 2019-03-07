@@ -48,9 +48,8 @@ public class FPSController : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space));
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Jump");
             rb.AddForce(0, jumpHeight, 0);
         }
     }
