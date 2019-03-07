@@ -7,9 +7,10 @@ using UnityEngine;
 /// </summary>
 public class InteractWithLookedAt : MonoBehaviour
 {
-    private IInteractive lookedAtInteractive;
     [SerializeField]
     private float timer = 3;
+
+    private IInteractive lookedAtInteractive;
     private float timeAtEnd;
     private bool timerActive = false;
 
@@ -23,7 +24,7 @@ public class InteractWithLookedAt : MonoBehaviour
         }
         if(timerActive && timeAtEnd + timer <= Time.time)
         {
-            lookedAtInteractive.ResetDisplayText();
+            lookedAtInteractive?.ResetDisplayText();
             timerActive = false;
         }
     }
