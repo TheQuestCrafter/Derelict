@@ -6,17 +6,19 @@ using UnityEngine;
 public class InteractiveObject : MonoBehaviour, IInteractive
 {
     [SerializeField]
-    private string initialText = nameof(InteractiveObject);
+    protected private string initialText = nameof(InteractiveObject);
     [SerializeField]
     protected private string displayText = nameof(InteractiveObject);
     [SerializeField]
-    private string itemInteractText;
+    protected private string itemInteractText;
     //public string DisplayText { get { return displayText; } }
     public string DisplayText => displayText;
+    public string InitalText => initialText;
+    public string ItemInteractText => itemInteractText;
 
     private AudioSource audioSource;
 
-    void Awake()
+    protected virtual void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         ResetDisplayText();
