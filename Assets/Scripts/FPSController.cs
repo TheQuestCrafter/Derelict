@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class FPSController : MonoBehaviour
 {
-
     [SerializeField]
     private float speed = 2.5f;
     [SerializeField]
@@ -27,7 +26,6 @@ public class FPSController : MonoBehaviour
     private float rotationX;
     private float rotationY;
 
-    // Start is called before the first frame update
     void Start()
     {
         player = GetComponent<CharacterController>();
@@ -35,7 +33,6 @@ public class FPSController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
     void Update()
     {
         GetInput();
@@ -68,7 +65,6 @@ public class FPSController : MonoBehaviour
     {
         moveFrontBack = Input.GetAxis("Vertical") * speed;
         moveLeftRight = Input.GetAxis("Horizontal") * speed;
-
         rotationX = Input.GetAxis("Mouse X") * sensitivityX;
         rotationY -= Input.GetAxis("Mouse Y") * sensitivityY;
         rotationY = Mathf.Clamp(rotationY, -60f, 60f);

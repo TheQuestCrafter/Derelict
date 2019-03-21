@@ -51,18 +51,13 @@ public class DetectLookedAtInteractive : MonoBehaviour
     private IInteractive GetLookedAtInteractive()
     {
         RaycastHit hitInfo;
-
         bool objectedDetected = Physics.Raycast(raycastOrigin.position, raycastOrigin.forward, out hitInfo, maxDetectionRange);
-
         IInteractive interactive = null;
-
         LookedAtInteractive = interactive;
-
         if (objectedDetected)
         {
             interactive = hitInfo.collider.gameObject.GetComponent<IInteractive>();
         }
-
         return interactive;
     }
 }

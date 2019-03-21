@@ -31,5 +31,4 @@ public class Door : InteractiveObject
         base.Awake();
         animator = GetComponent<Animator>();
     }
-
 }

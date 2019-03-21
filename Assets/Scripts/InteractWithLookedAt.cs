@@ -7,6 +7,7 @@ using UnityEngine;
 /// </summary>
 public class InteractWithLookedAt : MonoBehaviour
 {
+    [Tooltip("Time that it takes for the interacted text to disappear and return to default.")]
     [SerializeField]
     private float timer = 3;
 
@@ -43,6 +44,7 @@ public class InteractWithLookedAt : MonoBehaviour
     {
         DetectLookedAtInteractive.LookedAtInteractiveChanged += OnLookedAtInteractiveChanged;
     }
+
     private void OnDisable()
     {
         DetectLookedAtInteractive.LookedAtInteractiveChanged -= OnLookedAtInteractiveChanged;

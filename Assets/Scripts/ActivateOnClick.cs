@@ -18,6 +18,4 @@ public class ActivateOnClick : MonoBehaviour
     {
         Application.Quit();
     }
-
-
 }
