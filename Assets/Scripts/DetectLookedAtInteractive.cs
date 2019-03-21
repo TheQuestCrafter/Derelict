@@ -43,7 +43,6 @@ public class DetectLookedAtInteractive : MonoBehaviour
         LookedAtInteractive = GetLookedAtInteractive();
     }
 
-
     /// <summary>
     /// Raycasts forward from camera to look for IInteractives.
     /// </summary>

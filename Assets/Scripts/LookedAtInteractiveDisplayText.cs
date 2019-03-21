@@ -35,6 +35,7 @@ public class LookedAtInteractiveDisplayText : MonoBehaviour
         lookedAtInteractive = newLookedAtInteractive;
         UpdateDisplayText();
     }
+
     #region Event Subscription / Unsubscription
     private void OnEnable()
     {
