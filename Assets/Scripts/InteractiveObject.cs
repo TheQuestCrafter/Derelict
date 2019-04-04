@@ -17,7 +17,7 @@ public class InteractiveObject : MonoBehaviour, IInteractive
     public string DisplayText => displayText;
     public string InitalText => initialText;
     public string ItemInteractText => itemInteractText;
-    private AudioSource audioSource;
+    protected AudioSource audioSource;
 
     protected virtual void Awake()
     {
@@ -35,6 +35,11 @@ public class InteractiveObject : MonoBehaviour, IInteractive
         {
             throw new System.Exception("Missing Audiosource");
         }
+        UpdateDisplayText();
+    }
+
+    protected void UpdateDisplayText()
+    {
         displayText = itemInteractText;
     }
 
