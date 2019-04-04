@@ -658,7 +658,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7932
+  m_Name: pb_Mesh17500
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1058,7 +1058,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7206
+  m_Name: pb_Mesh16774
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2698,6 +2698,9 @@ MonoBehaviour:
   initialText: Door
   displayText: InteractiveObject
   itemInteractText: Door is locked.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
 --- !u!82 &132399741
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3098,7 +3101,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7134
+  m_Name: pb_Mesh16702
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4337,7 +4340,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7792
+  m_Name: pb_Mesh17360
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5531,6 +5534,9 @@ MonoBehaviour:
   initialText: Crates
   displayText: InteractiveObject
   itemInteractText: Stale supplies. Months old.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
 --- !u!82 &237558792
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6602,7 +6608,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7754
+  m_Name: pb_Mesh17322
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -10409,6 +10415,9 @@ MonoBehaviour:
   initialText: Door
   displayText: InteractiveObject
   itemInteractText: Door is locked.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
 --- !u!82 &414640000
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10954,7 +10963,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1300791154985416, guid: e19a9ae5d2dbac64cb2615394d2cda7f, type: 3}
       propertyPath: m_Name
-      value: EFIOSFB_big_console_working
+      value: Command Terminal
       objectReference: {fileID: 0}
     - target: {fileID: 4574200215347046, guid: e19a9ae5d2dbac64cb2615394d2cda7f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11298,7 +11307,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8106
+  m_Name: pb_Mesh17674
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11581,7 +11590,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7174
+  m_Name: pb_Mesh16742
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -12269,10 +12278,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b26d45c5192b38448d694e84b9f5d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialText: Unusual Device
+  initialText: Data Core
   displayText: InteractiveObject
-  itemInteractText: It's purpose is unclear.
-  objectName: Unusual Device
+  itemInteractText: Contains key RFID tags.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
+  objectName: Data Core
 --- !u!82 &554095041
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13006,7 +13018,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7820
+  m_Name: pb_Mesh17388
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -13341,6 +13353,9 @@ MonoBehaviour:
   initialText: Artwork
   displayText: InteractiveObject
   itemInteractText: A piece of minimalist art from the year 2200.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
 --- !u!82 &678820562
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13443,7 +13458,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7578
+  m_Name: pb_Mesh17146
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -13869,7 +13884,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7094
+  m_Name: pb_Mesh16662
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14104,7 +14119,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8008
+  m_Name: pb_Mesh17576
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14772,7 +14787,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8320
+  m_Name: pb_Mesh17888
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14932,7 +14947,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8068
+  m_Name: pb_Mesh17636
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16464,7 +16479,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7590
+  m_Name: pb_Mesh17158
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16954,17 +16969,9 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_IsSelectable: 1
-  m_SelectedFaces: 02000000
-  m_SelectedEdges:
-  - a: 8
-    b: 9
-  - a: 10
-    b: 8
-  - a: 9
-    b: 11
-  - a: 11
-    b: 10
-  m_SelectedVertices: 08000000090000000a0000000b000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!23 &776699245
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17058,11 +17065,16 @@ MonoBehaviour:
   initialText: Door
   displayText: Door
   itemInteractText: Door
-  isLocked: 0
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
   lockedDoorText: Locked
-  unlockedDoorText: Opened Door
+  openDoorText: Opened Door
   lockedDoorSound: {fileID: 8300000, guid: 677dbfd834af8a04b96bf1ce0c6707e2, type: 3}
   unlockedDoorSound: {fileID: 8300000, guid: c997720d467bce44ea4373ca2eadb613, type: 3}
+  key: {fileID: 0}
+  poweredDownText: Insufficient Power.
+  dataKey: {fileID: 1849182185}
 --- !u!82 &776699250
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17197,11 +17209,16 @@ MonoBehaviour:
   initialText: Door
   displayText: Door
   itemInteractText: Door
-  isLocked: 0
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
   lockedDoorText: Locked
-  unlockedDoorText: Opened Door
+  openDoorText: Opened Door
   lockedDoorSound: {fileID: 0}
   unlockedDoorSound: {fileID: 0}
+  key: {fileID: 0}
+  poweredDownText: 
+  dataKey: {fileID: 0}
 --- !u!82 &790906870
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17836,7 +17853,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7290
+  m_Name: pb_Mesh16858
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18059,7 +18076,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7466
+  m_Name: pb_Mesh17034
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18265,11 +18282,16 @@ MonoBehaviour:
   initialText: Door
   displayText: Door
   itemInteractText: Door
-  isLocked: 0
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
   lockedDoorText: Locked
-  unlockedDoorText: Opened Door
-  lockedDoorSound: {fileID: 0}
-  unlockedDoorSound: {fileID: 0}
+  openDoorText: Opened Door
+  lockedDoorSound: {fileID: 8300000, guid: 677dbfd834af8a04b96bf1ce0c6707e2, type: 3}
+  unlockedDoorSound: {fileID: 8300000, guid: c997720d467bce44ea4373ca2eadb613, type: 3}
+  key: {fileID: 554095040}
+  poweredDownText: 
+  dataKey: {fileID: 0}
 --- !u!82 &839251506
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18979,7 +19001,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8258
+  m_Name: pb_Mesh17826
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21890,7 +21912,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7778
+  m_Name: pb_Mesh17346
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22050,7 +22072,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7906
+  m_Name: pb_Mesh17474
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -26348,7 +26370,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7484
+  m_Name: pb_Mesh17052
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -26774,7 +26796,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7442
+  m_Name: pb_Mesh17010
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -27860,7 +27882,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7074
+  m_Name: pb_Mesh16642
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -29088,7 +29110,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8124
+  m_Name: pb_Mesh17692
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -30948,7 +30970,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7732
+  m_Name: pb_Mesh17300
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -31833,7 +31855,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7374
+  m_Name: pb_Mesh16942
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -31999,7 +32021,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8232
+  m_Name: pb_Mesh17800
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -32165,7 +32187,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7698
+  m_Name: pb_Mesh17266
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -32382,7 +32404,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7660
+  m_Name: pb_Mesh17228
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34222,7 +34244,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7850
+  m_Name: pb_Mesh17418
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -35349,7 +35371,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7148
+  m_Name: pb_Mesh16716
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37593,7 +37615,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7000
+  m_Name: pb_Mesh16568
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37913,6 +37935,9 @@ MonoBehaviour:
   initialText: Ventilation Systems Terminal
   displayText: InteractiveObject
   itemInteractText: Ventilation Systems Toggled.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
   objectToToggle: {fileID: 1258176426}
   isReusable: 0
 --- !u!82 &1614950991
@@ -38479,7 +38504,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8292
+  m_Name: pb_Mesh17860
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -43671,7 +43696,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7230
+  m_Name: pb_Mesh16798
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -43941,7 +43966,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialText: Command Terminal
   displayText: InteractiveObject
-  itemInteractText: Power Restored.
+  itemInteractText: Power Restored
+  hiddenDataText: 
+  itemWithHidden: {fileID: 2095968156}
+  usesHiddenObject: 1
 --- !u!1001 &1855484081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44059,7 +44087,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh6982
+  m_Name: pb_Mesh16550
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -44303,15 +44331,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541005633098028, guid: ae89ed2e752a2bb4fb19d7f309c91b79, type: 3}
       propertyPath: m_Name
-      value: EFIOSFB_small_part_working
+      value: Data Core
       objectReference: {fileID: 0}
     - target: {fileID: 4640416460675284, guid: ae89ed2e752a2bb4fb19d7f309c91b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3660152
+      value: -2.6660154
       objectReference: {fileID: 0}
     - target: {fileID: 4640416460675284, guid: ae89ed2e752a2bb4fb19d7f309c91b79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.911461
+      value: -5.1314607
       objectReference: {fileID: 0}
     - target: {fileID: 4640416460675284, guid: ae89ed2e752a2bb4fb19d7f309c91b79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -44502,7 +44530,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8190
+  m_Name: pb_Mesh17758
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -44662,7 +44690,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7640
+  m_Name: pb_Mesh17208
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -44822,7 +44850,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7034
+  m_Name: pb_Mesh16602
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -47296,6 +47324,9 @@ MonoBehaviour:
   displayText: InteractiveObject
   itemInteractText: A beautiful view, only a couple dozen lightyears from the Barnard's
     Loop Nebula.
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
 --- !u!82 &2001095871
 AudioSource:
   m_ObjectHideFlags: 0
@@ -48049,7 +48080,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7336
+  m_Name: pb_Mesh16904
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -49612,6 +49643,10 @@ MonoBehaviour:
   initialText: Computer Terminal
   displayText: InteractiveObject
   itemInteractText: Unresponsive. A command terminal may fix this.
+  hiddenDataText: Data shows critical life support failure resulting in unsual radiation
+    readings.
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
 --- !u!82 &2095968157
 AudioSource:
   m_ObjectHideFlags: 0
@@ -49773,7 +49808,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7516
+  m_Name: pb_Mesh17084
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -51582,11 +51617,16 @@ MonoBehaviour:
   initialText: Door
   displayText: Door
   itemInteractText: Door
-  isLocked: 0
+  hiddenDataText: 
+  itemWithHidden: {fileID: 0}
+  usesHiddenObject: 0
   lockedDoorText: Locked
-  unlockedDoorText: Opened Door
+  openDoorText: Opened Door
   lockedDoorSound: {fileID: 0}
   unlockedDoorSound: {fileID: 0}
+  key: {fileID: 0}
+  poweredDownText: 
+  dataKey: {fileID: 0}
 --- !u!82 &2138726304
 AudioSource:
   m_ObjectHideFlags: 0
