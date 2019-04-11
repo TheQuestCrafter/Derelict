@@ -20,6 +20,8 @@ public class FPSController : MonoBehaviour
     [SerializeField]
     private float jumpHeight = 2f;
 
+    private Animator animator;
+    
     private float moveFrontBack;
     private float moveLeftRight;
 
@@ -28,6 +30,7 @@ public class FPSController : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         player = GetComponent<CharacterController>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -42,6 +45,19 @@ public class FPSController : MonoBehaviour
     void FixedUpdate()
     {
         Jump();
+        Crouch();
+    }
+
+    private void Crouch()
+    {
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            animator.SetBool("Crouched", true);
+        }
+        else
+        {
+            animator.SetBool("Crouched", false);
+        }
     }
 
     private void Jump()
