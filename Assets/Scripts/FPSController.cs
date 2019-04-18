@@ -53,13 +53,9 @@ public class FPSController : MonoBehaviour
     private void Crouch()
     {
         if (Input.GetKey(KeyCode.LeftControl))
-        {
             animator.SetBool("Crouched", true);
-        }
         else
-        {
             animator.SetBool("Crouched", false);
-        }
     }
     
     public void SetLockPlayer(bool locked)

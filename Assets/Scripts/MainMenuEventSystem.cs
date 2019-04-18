@@ -36,6 +36,7 @@ public class MainMenuEventSystem : MonoBehaviour
             currentPanel = creditPanel.name;
         else if (mainMenuPanel.activeSelf == true)
             currentPanel = mainMenuPanel.name;
+
         if (currentPanel != panelHistory)
         {
             if (currentPanel == creditPanel.name)

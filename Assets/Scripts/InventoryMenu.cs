@@ -27,6 +27,8 @@ public class InventoryMenu : MonoBehaviour
     private AudioSource audioSource;
     private ToggleGroup toggleGroup;
 
+    private bool IsVisible => canvasGroup.alpha > 0;
+
     public static InventoryMenu Instance
     {
         get
@@ -37,8 +39,6 @@ public class InventoryMenu : MonoBehaviour
         }
         private set { instance = value; }
     }
-
-    private bool IsVisible => canvasGroup.alpha > 0;
 
     private void ShowMenu()
     {
@@ -116,6 +116,7 @@ public class InventoryMenu : MonoBehaviour
         yield return new WaitForSeconds(audioSource.clip.length);
         audioSource.volume = originalVolume;
     }
+
     private void OnInventoryMenuItemSelected(InventoryObject inventoryObjectThatWasSelected)
     {
         itemLabelText.text = inventoryObjectThatWasSelected.ObjectName;
