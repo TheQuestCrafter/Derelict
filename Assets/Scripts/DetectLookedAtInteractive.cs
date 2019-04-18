@@ -38,7 +38,7 @@ public class DetectLookedAtInteractive : MonoBehaviour
 
     private IInteractive lookedAtInteractive;
 
-    void FixedUpdate()
+    void Update()
     {
         LookedAtInteractive = GetLookedAtInteractive();
     }
