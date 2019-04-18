@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class InventoryObject : InteractiveObject
 {
-    // TODO: Add long description field
-    // TODO: Add Icon Field
-
+    [Tooltip("Description text for each item in the inventory.")]
+    [SerializeField]
+    [TextArea(2,8)]
+    private string description;
+    [Tooltip("Icon displayed in the menu to give a representation of the object.")]
+    [SerializeField]
+    private Sprite icon;
     [Tooltip("The text that will display in the UI when the player looks at it in the menu.")]
     [SerializeField]
     private string objectName = nameof(InventoryObject);
