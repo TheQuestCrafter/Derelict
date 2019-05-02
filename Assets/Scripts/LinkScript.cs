@@ -48,4 +48,8 @@ public class LinkScript : MonoBehaviour
     {
         Application.OpenURL("https://commons.wikimedia.org/wiki/File:Simpleicons_Interface_key-shape-interface-symbol-for-password.svg ");
     }
+    public void Button12()
+    {
+        Application.OpenURL("https://www.1001fonts.com/blackhole-bb-font.html");
+    }
 }
