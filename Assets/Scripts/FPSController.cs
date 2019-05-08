@@ -7,23 +7,29 @@ public class FPSController : MonoBehaviour
 {
     [SerializeField]
     private float speed = 2.5f;
+
     [SerializeField]
     private float sensitivityX = 3f;
+
     [SerializeField]
     private float sensitivityY = 2f;
+
     [SerializeField]
     CharacterController player;
+
     [SerializeField]
     private GameObject camera;
+
     [SerializeField]
     private Rigidbody rb;
+
     [SerializeField]
     private float jumpHeight = 2f;
+
     [SerializeField]
     private BoxCollider aboveDetector;
 
     private Animator animator;
-
     private bool playerLocked = false;
     private bool objectAbove = false;
 
@@ -46,7 +52,6 @@ public class FPSController : MonoBehaviour
     {
         GetInput();
         Movement();
-        
     }
 
     void FixedUpdate()
@@ -113,9 +118,9 @@ public class FPSController : MonoBehaviour
         objectAbove = true;
         Debug.Log("Object Above");
     }
+
     private void OnCollisionExit(Collision collision)
     {
-        
         objectAbove = false;
         Debug.Log("No Object Above");
     }

@@ -49,8 +49,6 @@ public class EndGameInteractive : InteractiveObject
     private void Update()
     {
         if(endingGame && Time.time >= totalTimer)
-        {
             SceneManager.LoadScene(0);
-        }
     }
 }
