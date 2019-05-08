@@ -17,9 +17,14 @@ public class InventoryObject : InteractiveObject
     [SerializeField]
     private string objectName = nameof(InventoryObject);
 
+    [Tooltip("When you pick up the object, should it disappear?")]
+    [SerializeField]
+    private bool doesDisappear = true;
+
     public Sprite Icon => icon;
     public string ObjectName => objectName;
     public string Description => description;
+    private bool alreadyInteractedWith = false;
     
     private Renderer objRenderer;
     private Collider objCollider;
@@ -42,9 +47,17 @@ public class InventoryObject : InteractiveObject
     public override void InteractWith()
     {
         base.InteractWith();
-        PlayerInventory.InventoryObjects.Add(this);
-        InventoryMenu.Instance.AddItemToMenu(this);
-        objCollider.enabled = false;
-        objRenderer.enabled = false;
+        
+        if (!alreadyInteractedWith)
+        {
+            PlayerInventory.InventoryObjects.Add(this);
+            InventoryMenu.Instance.AddItemToMenu(this);
+        }
+        if (doesDisappear)
+        {
+            objCollider.enabled = false;
+            objRenderer.enabled = false;
+        }
+        alreadyInteractedWith = true;
     }
 }

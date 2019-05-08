@@ -32,6 +32,11 @@ public class MainMenuEventSystem : MonoBehaviour
 
     private void Update()
     {
+        CheckPanel();
+    }
+
+    private void CheckPanel()
+    {
         if (creditPanel.activeSelf == true)
             currentPanel = creditPanel.name;
         else if (mainMenuPanel.activeSelf == true)
